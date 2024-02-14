@@ -67,10 +67,6 @@ input[type='submit']:disabled {
   font-size: 1.2rem;
 }
 
-.otp-number {
-  -moz-appearance: textfield;
-}
-
 .otp-number:focus{
   border-bottom: 1px solid yellow;
 }
