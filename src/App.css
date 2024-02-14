@@ -67,12 +67,6 @@ input[type='submit']:disabled {
   font-size: 1.2rem;
 }
 
-.otp-number::-webkit-inner-spin-button,
-.otp-number::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
 .otp-number {
   -moz-appearance: textfield;
 }
