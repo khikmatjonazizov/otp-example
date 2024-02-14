@@ -13,6 +13,8 @@ const App: React.FC = () => {
         onSubmit,
     } = useOtp();
 
+    console.log(otp)
+
     return (
         <div className="wrapper">
             <div className="heading">

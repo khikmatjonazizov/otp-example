@@ -7,7 +7,8 @@ export const useOtp = () => {
     const inputsRefs = useRef<(HTMLInputElement | null)[]>(new Array(6).fill(null));
 
     const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.stopPropagation();
+        event.preventDefault();
+        console.log(otp)
     }
 
     const focusAndSelectInputByIndex = (dir: 'next' | 'prev', inputIndex: number) => {
